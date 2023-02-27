@@ -21,10 +21,7 @@ const slides = [
 const arrowLeft = document.querySelector(".arrow_left");
 const arrowRight = document.querySelector(".arrow_right");
 const bulletPoint = document.querySelector(".dot");
-
-bulletPoint.addEventListener("click", () => {
-  console.log("point");
-});
+const NSlides = slides.length;
 
 arrowRight.addEventListener("click", () => {});
 
