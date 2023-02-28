@@ -22,7 +22,12 @@ const arrowLeft = document.querySelector(".arrow_left");
 const arrowRight = document.querySelector(".arrow_right");
 const bulletPoint = document.querySelector(".dot");
 const NSlides = slides.length;
+let i = 0;
 
 arrowRight.addEventListener("click", () => {});
+slides + i + i++;
 
-arrowLeft.addEventListener("click", () => {});
+arrowLeft.addEventListener("click", function () {});
+
+// i = i+1
+// slides[i]
